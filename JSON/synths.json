@@ -1,1 +1,69 @@
-[]
+[
+ {
+  "name": "synth 1",
+  "type": "Synth",
+  "settings": {
+   "volume": 0,
+   "detune": 7,
+   "portamento": "0",
+   "envelope": {
+    "attack": "0.195",
+    "attackCurve": "exponential",
+    "decay": "0.145",
+    "decayCurve": "linear",
+    "release": "1.005",
+    "releaseCurve": "exponential",
+    "sustain": "0.705"
+   },
+   "oscillator": {
+    "partialCount": 10,
+    "partials": [
+     1.2732395447351628,
+     0,
+     0.4244131815783876,
+     0,
+     0.25464790894703254,
+     0,
+     0.18189136353359467,
+     0,
+     0.1414710605261292,
+     0
+    ],
+    "phase": 0,
+    "type": "amsquare10",
+    "harmonicity": 1,
+    "modulationType": "triangle"
+   }
+  }
+ },
+ {
+  "name": "synth 2",
+  "type": "Synth",
+  "settings": {
+   "volume": 0,
+   "detune": -49,
+   "portamento": "0",
+   "envelope": {
+    "attack": "0.095",
+    "attackCurve": "linear",
+    "decay": "0.1",
+    "decayCurve": "exponential",
+    "release": "1",
+    "releaseCurve": "exponential",
+    "sustain": "0.905"
+   },
+   "oscillator": {
+    "partialCount": 2,
+    "partials": [
+     1,
+     1
+    ],
+    "phase": 198.00000000000003,
+    "type": "fmsine2",
+    "harmonicity": 3,
+    "modulationIndex": 2,
+    "modulationType": "sawtooth"
+   }
+  }
+ }
+]
